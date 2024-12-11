@@ -1,0 +1,155 @@
+
+body {
+    background-color: #f1f8ff; /* Light blue background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #4b86b4; /* Blue font color for headings */
+    background-color: transparent;
+    text-align: left;
+    font-family: 'Lora', sans-serif;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 38px;
+    background-color: #f1f8ff;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e88e5;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #1565c0;
+}
+/* Experience Section */
+.experience-section {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.experience-section h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.experience-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.experience-section img.piano-photo {
+    width: 300px; /* Set specific width */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
+
+/* Main Content Area */
+.main-content, .section, p {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    text-align: left; /* Align all content to the left */
+}
+
+/* Section Styling */
+.section {
+    text-align: left; /* Ensure content is aligned to the left */
+}
+
+h2 {
+    font-size: 26px;
+    color: #4b86b4; /* Blue color for headings */
+    margin-bottom: 15px; /* Space below the headings */
+}
+
+/* Section Paragraph & List Styles */
+p, ul {
+    font-size: 16px;
+    color: #333; /* Darker text color */
+    margin-bottom: 15px; /* Space between paragraphs/lists */
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc; /* Display bullet points */
+    margin-left: 20px; /* Indentation for list items */
+}
+
+
+/* Button Styles */
+button {
+    background-color: #ff8c8c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .main-content, .section, .experience-section {
+        margin: 10px auto;
+        padding: 15px;
+        width: 100%;
+    }
+}
